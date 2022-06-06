@@ -68,7 +68,7 @@ export const DataProvider = ({ children }) => {
       setLoading(false);
     }
     getCharacters();
-  }, []);
+  },[]);
 
   return (
     <DataContext.Provider
