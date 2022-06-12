@@ -134,7 +134,7 @@ header h1 span{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
+  align-items: center;
   gap: .5rem;
 }
 .individual-character-info h1{
@@ -148,7 +148,7 @@ header h1 span{
   text-align: left;
 }
 .individual-character .back{
-  position: absolute;
+ 
   padding: 10px 80px;
   cursor: pointer;
   bottom: 0px;
@@ -168,14 +168,14 @@ header h1 span{
 .pagination button{
   padding: .2rem .5rem;
   border-radius: .1rem;
-  background:rgb(37, 36, 35);
+  background:rgb(28, 95, 240);
   color: #ddd;
   border: none;
   cursor: pointer;
 }
 
 .pagination button.active-page{
-  background: #151d1a;
+  background: #2e3633;
   border: 2px solid #ec5108;
 }
 

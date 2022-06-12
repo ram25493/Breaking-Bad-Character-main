@@ -15,8 +15,11 @@ const IndividualCharacter = () => {
         <p>Nick name: {nickname}</p>
         <p>Birthday: {birthday}</p>
         <p>Status: {status}</p>
-      </div>
+      
+      <div>
       <button className="back" onClick={() => renderIndividualCharacter(false)}>Back</button>
+      </div>
+      </div>
     </div>
   );
 }
